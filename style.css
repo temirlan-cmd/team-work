@@ -1,0 +1,68 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.wrapper {
+   width: 1440px;
+   margin: 0 auto;
+   border: 2px solid black;
+}
+
+
+
+.header {
+   width: 1312px;
+   height: 41px;
+   margin: 0 auto;
+   border: 1px solid greenyellow;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-left{
+   display: flex;
+   width: 666px;
+   height: 38px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+   background-color: greenyellow;
+font-family: Rubik;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: -2%;
+text-align: left;
+}
+
+.header-left ul {
+   display: flex;
+   list-style: none;
+   width: 514px;
+   justify-content: space-between;
+}
+
+.header-left ul li {
+   color: rgb(37, 36, 34);
+font-family: Outfit;
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+
+.ClickMe {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
